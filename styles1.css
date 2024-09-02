@@ -1,0 +1,396 @@
+body{
+    height: 100%;
+    position: relative;
+    background-color: rgb(5, 5, 5);
+    font-family: 'Lexand Deca', monospace;
+}
+
+.navbar-brand{
+    padding-left: 15px;
+    
+}
+
+#external-icon{
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+}
+.navbar{
+    background-color: black !important; /* Make the navbar completely black */
+}
+#hi, #name, #clg, #Intro, #social {
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-in-out forwards 0.5s; /* Staggered fade-in animation for text and cards */
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#proj-heading{
+    position: relative;
+    bottom: 70px;
+    right: 10px;
+}
+#proj-heading2{
+    position: relative;
+    bottom: 65px;
+    right: 10px;
+}
+#resume{
+    background-color: beige;
+    color: black;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#proj{
+    position: relative;
+    left: 800px;
+    top: 820px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
+}
+#social{
+    font-size: 25px;    
+    position: absolute;
+    top: 80px;
+    text-decoration-line:solid;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:solid;
+    text-decoration-thickness: 2px ;
+    animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    color: whitesmoke;
+    border-bottom: 4px solid beige;
+}
+
+#navi2 .nav-link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#photo{
+    position: relative;  /* Set position relative */
+    left: 1000px;            /* Move to the right by setting right property */
+    top: 200px;           /* Adjust top position if needed */
+    margin-left: auto;  
+
+}
+
+
+
+#hi{
+    position: absolute;
+    left: 270px;
+    top: 120px;
+    color: whitesmoke;
+    transition: color 0.5s ease, top 0.5s ease;
+}
+
+#name{
+    position: absolute;
+    left: 320px;
+    top: 250px;
+    color: rgb(19, 158, 233);
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+}
+
+#clg{
+    font-style: italic;
+    font-size:25px;
+    position: absolute;
+    left: 320px;
+    top: 350px;
+    color: whitesmoke;
+}
+
+#snap{
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    filter: opacity(0.9);   
+}
+
+
+#sidehead{
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 45px;
+    text-decoration-line:solid;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:wavy;
+    text-decoration-thickness: 2px ;
+    animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
+}
+#proj-card{
+    position: absolute;
+    left: 300px;
+    top: 800px;
+    width: 100%;
+}
+.col-md-2.bg-dark.text-white.sidebar {
+    background-color: black !important; /* Force sidebar to be black */
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    animation: fadeInLeft 0.5s ease-in-out forwards 0.5s;
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.card {
+    background: linear-gradient(135deg, rgb(169, 234, 232), rgb(237, 243, 243));
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    width: 250px;
+    height: 400px;
+    color: #333;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card1 {
+    background: linear-gradient(135deg, rgb(169, 234, 232), rgb(237, 243, 243));
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    color: #333;
+}
+.card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+#sidecontent{
+    position: absolute;
+    top: 120px;
+    left: 35px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
+}
+
+#number{
+    font-size: 25px;    
+    position: absolute;
+    top: 365px;
+    text-decoration-line:solid;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:solid;
+    text-decoration-thickness: 2px ;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
+}
+
+#num{
+    position: absolute;
+    top: 425px;
+    left: 35px;
+    font-size: 23px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
+}
+#mail{
+    font-size: 25px;    
+    position: absolute;
+    top: 480px;
+    text-decoration-line:solid;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:solid;
+    text-decoration-thickness: 2px ;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
+}
+
+#mai{
+    position: absolute;
+    top: 540px;
+    font-size: 19px;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
+}
+#mai2{
+    position: absolute;
+    top: 585px;
+    font-size: 16px;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
+}
+
+#Intro{
+    color: whitesmoke;
+    position: absolute;
+    top: 450px;
+    left: 320px;
+}
+
+
+#proj-title{
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 1200px;
+    font-size: 100px;
+    right: 0px;
+    left: 5px;
+    text-decoration-line: underline;
+    text-decoration-style:double;
+    text-underline-offset: 40px;
+    text-decoration-thickness: 2px ;
+}
+
+#exp-title{
+    position: absolute;
+    top: 1800px;
+    font-size: 50px;
+    right: 0px;
+    left: 350px;
+    text-decoration-line: underline;
+    text-decoration-style:double;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px ;
+}
+#about-name{
+    color: rgb(90, 181, 214);
+}
+.about-intro{
+    position: absolute;
+    top: 2700px;
+    left: 280px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#about-me{
+    position: relative;
+    margin-top: 2500px;
+    font-size: 50px;
+    left: 260px;
+    text-decoration-line: underline;
+    text-decoration-style:double;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px ;
+    margin-bottom: 0; /* Remove any bottom margin */
+    padding-bottom: 0; 
+}
+
+#skills-title{
+    position: absolute;
+    top: 1800px;
+    font-size: 50px;
+    right: 0px;
+    left: 1050px;
+    text-decoration-line: underline;
+    text-decoration-style:double;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px ;
+}
+
+
+#proj-data{
+    position: absolute;
+    top: 240px;
+    left: 10px;
+}
+
+#flutter{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+#skills-img{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#meister{
+    position: absolute;
+    top: 80px;
+    left: 120px;
+}
+
+#proj2{
+    position: relative;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+#exp1{
+    position: relative;
+    margin-left: 280px;
+    margin-top: 300px;
+}
+
+#skills{
+    position: relative;
+    margin-left: 420px;
+    margin-top: 300px;
+}
+#proj3{
+    position: relative;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+html {
+    scroll-behavior: smooth;
+    
+}
+#card1{
+    position: relative;
+    margin-left: 320px;
+    margin-top: 750px;
+}
+#card2{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 750px;
+}
+#card3{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 750px;
+}
+@media (max-width: 768px) {
+    #snap {
+        display: none; /* Hides the snap image on mobile */
+    }
+}

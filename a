@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> First Webpage</title>
+        <link rel ="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container"> 
+            <h1 id="port">Portfolio Website</h1>
+        </div>
+        <div class="row">
+        <div class="col-3">
+            <img src= "photo.jpg", width = 300 height = 300>
+            <a href="https://www.instagram.com/amritk_01/" id="insta">
+                <img src="insta.png", width="40" height="40" />
+            </a>
+        </div>
+            <h1 id="under1">About:-</h1>
+            <h1 id="under">Name:</h1>
+        <h2>Amrit Krishnan</h2>
+        <h1 id="under">Age:</h1>
+        <h2>19</h2>
+        <div>
+        <h1 id="under">Contact Information: </h1>
+        <h2 class="Num">Phone Number: </h2>
+        <h3>9003042535</h3>
+        <h2 class = "Num">Email:</h2>
+        <h3>amritkrishnan15@hotmail.com</h3>
+        <h2 class = "Num">Address: </h2>
+        <p>356, Flat E, Nutech Golden Crest <br> Lakshmanasamy Salai, K K Nagar <br> Chennai - 600078</p>
+        </div>
+    <div class="col-2">  
+    <h2 id="proj">My projects:-</h2>
+    <ul>
+        <li>Stress Management Detection (Machine Learning)</li>
+        <li>JEE seat allotment in C</li>
+        <li>Aim Trainer using Python</li>
+        <li>Bus Resrvation system using Java</li>
+    </ul>
+</div>
+<div class="col-1" id="new">
+    <div class="alert alert-danger" role="alert">NEW!!!</div> 
+    </div>
+    <h2 id="edu">My education:-</h2>
+    </body>
+</html>
+
+
+
+
+#port{
+    color: #2E475D;
+    position: relative;
+    text-align: middle;
+    left: 500px;
+}
+
+#under{
+    color: #2E475D;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:dashed;
+    
+}
+
+#under1{
+    color: #2E475D;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:double;
+    text-decoration-thickness: 2px ;
+    margin-bottom: 40px;
+}
+
+.Num{
+    color : green;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:dashed;
+}
+
+p{
+    font-size: 16px;
+    background-color: darkcyan;
+    max-width: 270px;
+    border: medium solid rgb(30, 228, 159);
+    padding: 5px;
+}
+
+img{
+    position: absolute;
+    left:1200px;
+    margin-top: 100px;
+    filter: opacity(0.9);
+}
+
+
+ul{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    font-size: 25px;
+    font-family: 'Lexand Deca', sans-serif;
+    font-weight: bold;
+    color: #2E475D;
+}
+
+ul li{
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+#proj{
+    position: absolute;
+    left: 600px;
+    top: 75px;
+    font-size: 25px;
+    font-family: 'Lexand Deca', sans-serif;
+    font-weight: bold;
+    color: #2E475D;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:dashed;
+}
+
+#edu{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    font-size: 25px;
+    font-family: 'Lexand Deca', sans-serif;
+    font-weight: bold;
+    color: #2E475D;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:dashed;
+}
+
+#new{
+    position: absolute;
+    left: 1120px;
+    top: 100px;
+    font-size: small;
+    padding-right: 0px;
+    max-width: 80px;
+    height: 50px;
+}
+
+#insta{
+    position: absolute;
+    top: 450px;
+}
+
+#edu{
+    position: absolute;
+    left: 600px;
+    top: 330px;
+    font-size: 25px;
+    font-family: 'Lexand Deca', sans-serif;
+    font-weight: bold;
+    color: #2E475D;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:dashed;
+}

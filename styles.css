@@ -1,0 +1,143 @@
+#port{
+    color: #2E475D;
+    position: relative;
+    text-align: middle;
+    left: 500px;
+}
+
+#under{
+    color: #2E475D;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:dashed;
+    
+}
+
+#under1{
+    color: #2E475D;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:double;
+    text-decoration-thickness: 2px ;
+    margin-bottom: 40px;
+}
+
+.Num{
+    color : green;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:dashed;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    opacity: 0.5; /* Adjust this value for desired opacity level */
+    z-index: -1; /* Ensures the background image is behind the content */
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    position: relative;
+    background: linear-gradient(89.2deg, rgb(191, 241, 236) 22.3%, rgb(109, 192, 236) 84.1%);
+    font-family: 'Lexand Deca', sans-serif;
+    width: 100%; 
+}
+
+p{
+    font-size: 16px;
+    background-color: darkcyan;
+    max-width: 270px;
+    border: medium solid rgb(30, 228, 159);
+    padding: 5px;
+}
+
+img{
+    position: absolute;
+    left:1200px;
+    margin-top: 100px;
+    filter: opacity(0.9);
+}
+
+
+ul{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    font-size: 25px;
+    font-family: 'Lexand Deca', sans-serif;
+    font-weight: bold;
+    color: #2E475D;
+}
+
+ul li{
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+#proj{
+    position: absolute;
+    left: 600px;
+    top: 75px;
+    font-size: 25px;
+    font-family: 'Lexand Deca', sans-serif;
+    font-weight: bold;
+    color: #2E475D;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:dashed;
+}
+
+#edu{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    font-size: 25px;
+    font-family: 'Lexand Deca', sans-serif;
+    font-weight: bold;
+    color: #2E475D;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:dashed;
+}
+
+#new{
+    position: absolute;
+    left: 1120px;
+    top: 100px;
+    font-size: small;
+    padding-right: 0px;
+    max-width: 80px;
+    height: 50px;
+}
+
+#insta{
+    position: absolute;
+    top: 450px;
+}
+
+#edu{
+    position: absolute;
+    left: 600px;
+    top: 330px;
+    font-size: 25px;
+    font-family: 'Lexand Deca', sans-serif;
+    font-weight: bold;
+    color: #2E475D;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-style:dashed;
+}
