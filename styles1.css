@@ -71,6 +71,10 @@ body{
     text-decoration-thickness: 2px ;
     animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
 }
+#social-link{
+    position: relative;
+    margin-top: 130px;
+}
 html{
     width: 100%;
     height: 100%;
@@ -208,8 +212,7 @@ nav{
 #number{
     font-size: 25px;    
     position: relative;
-    top: 400px;
-    right: 10px;
+    margin-top: 30px;
     text-decoration-line:solid;
     text-decoration-line: underline;
     text-underline-offset: 8px;
@@ -221,8 +224,6 @@ nav{
 
 #num{
     position: relative;
-    top: 410px;
-    left: 10px;
     font-size: 23px;
     text-align: center;
     opacity: 0;
@@ -231,7 +232,7 @@ nav{
 #mail{
     font-size: 25px;    
     position: relative;
-    top: 430px;
+    margin-top: 30px;
     text-decoration-line:solid;
     text-decoration-line: underline;
     text-underline-offset: 8px;
@@ -243,14 +244,14 @@ nav{
 
 #mai{
     position: relative;
-    top: 460px;
+    margin-top: 30px;
     font-size: 19px;
     opacity: 0;
     animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
 }
 #mai2{
     position: relative;
-    top: 480px;
+    margin-top: 30px;
     font-size: 16px;
     opacity: 0;
     animation: fadeInUp 0.5s ease-in-out forwards 0.5s;
@@ -293,22 +294,19 @@ nav{
 }
 .about-intro{
     position: absolute;
-    top: 2700px;
-    left: 280px;
+    margin-left: 250px;
+    top: 2600px;
     font-size: 20px;
     color: whitesmoke;
 }
 
 #about-me{
-    position: relative;
-    margin-top: 2100px;
     font-size: 50px;
-    left: 260px;
+    margin-bottom: 40px;
     text-decoration-line: underline;
     text-decoration-style:double;
     text-underline-offset: 10px;
-    text-decoration-thickness: 2px ;
-    margin-bottom: 0; /* Remove any bottom margin */
+    text-decoration-thickness: 2px ; /* Remove any bottom margin */
     padding-bottom: 0; 
 }
 
