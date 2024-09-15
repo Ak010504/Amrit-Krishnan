@@ -100,17 +100,17 @@ nav{
 
 
 #hi{
-    position: absolute;
-    left: 270px;
+    position: relative;
+    left: 50px;
     top: 120px;
     color: whitesmoke;
     transition: color 0.5s ease, top 0.5s ease;
 }
 
 #name{
-    position: absolute;
-    left: 320px;
-    top: 250px;
+    position: relative;
+    left: 100px;
+    top: 150px;
     color: rgb(19, 158, 233);
     text-decoration-line: underline;
     text-underline-offset: 8px;
@@ -119,9 +119,9 @@ nav{
 #clg{
     font-style: italic;
     font-size:25px;
-    position: absolute;
-    left: 320px;
-    top: 350px;
+    position: relative;
+    left: 100px;
+    top: 200px;
     color: whitesmoke;
 }
 
@@ -152,10 +152,8 @@ nav{
     top: 800px;
     width: 100%;
 }
-.col-md-2.bg-dark.text-white.sidebar {
+.col-2.bg-dark.text-white {
     background-color: black !important; /* Force sidebar to be black */
-    height: 100%;
-    position: absolute;
     text-align: center;
     animation: fadeInLeft 0.5s ease-in-out forwards 0.5s;
 }
@@ -259,16 +257,16 @@ nav{
 
 #Intro{
     color: whitesmoke;
-    position: absolute;
-    top: 450px;
-    left: 320px;
+    position: relative;
+    top: 250px;
+    left: 100px;
 }
 
 
 #proj-title{
-    position: absolute;
+    position: relative;
     transform: rotate(-90deg);
-    top: 1200px;
+    top: 400px;
     font-size: 100px;
     right: 0px;
     left: 5px;
@@ -279,8 +277,9 @@ nav{
 }
 
 #exp-title{
-    position: absolute;
-    top: 1800px;
+    position: relative;
+    top: 150px;
+    color: rgb(233, 238, 240);
     font-size: 50px;
     right: 0px;
     left: 350px;
@@ -293,11 +292,11 @@ nav{
     color: rgb(90, 181, 214);
 }
 .about-intro{
-    position: absolute;
+    position: relative;
     margin-left: 250px;
-    top: 2600px;
     font-size: 20px;
     color: whitesmoke;
+    bottom: 200px;
 }
 
 #about-me{
@@ -311,11 +310,12 @@ nav{
 }
 
 #skills-title{
-    position: absolute;
-    top: 1800px;
+    position: relative;
+    top: 150px;
     font-size: 50px;
+    color: white;
     right: 0px;
-    left: 1050px;
+    left: 500px;
     text-decoration-line: underline;
     text-decoration-style:double;
     text-underline-offset: 10px;
@@ -348,20 +348,20 @@ nav{
 
 #proj2{
     position: relative;
-    margin-left: 500px;
+    margin-left: 450px;
     margin-top: 100px;
 }
 
 #exp1{
     position: relative;
     margin-left: 280px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 #skills{
     position: relative;
     margin-left: 420px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 #proj3{
     position: relative;
@@ -374,20 +374,20 @@ html {
 }
 #card1{
     position: relative;
-    margin-left: 320px;
-    margin-top: 750px;
+    margin-left: 200px;
+    margin-top: 170px;
 }
 #card2{
     position: relative;
-    margin-left: 200px;
-    margin-top: 750px;
+    margin-left: 170px;
+    margin-top: 170px;
 }
 #card3{
     position: relative;
-    margin-left: 100px;
-    margin-top: 750px;
+    margin-left: 120px;
+    margin-top: 170px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     #snap {
         display: none; /* Hides the snap image on mobile */
     }
